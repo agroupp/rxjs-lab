@@ -1,0 +1,18 @@
+<section class="section">
+  <div class="row checkbox-row">
+    <p>Total mappings is <b>{{ mappingsCount }}</b></p>
+    <button (click)="manuallySubscribe()">Subscribe manually</button>
+  </div>
+  <div class="row">
+    <app-card title="Subscription 1" [value]="count1To5$ | async"></app-card>
+  </div>
+</section>
+
+<section class="section">
+  <div class="row">
+
+  </div>
+  <div class="row">
+    <!-- <app-card title="Manual subscription" [value]="manualSubscriptionTicker$ | async"></app-card> -->
+  </div>
+</section>

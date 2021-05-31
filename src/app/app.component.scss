@@ -1,0 +1,21 @@
+.toolbar {
+  .home-link {
+    display: flex;
+    align-items: center;
+    span {
+      color: #fff;
+    }
+  }
+}
+
+.menu {
+  margin-bottom: 2rem;
+
+  a {
+    margin: 0 2rem;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+}
