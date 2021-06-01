@@ -27,5 +27,9 @@ export class AppComponent {
   httpCall2$ = of(42);
 
   constructor() {
+    this.numbers$.pipe(
+      filter(Boolean),
+      map(x => x)
+    );
   }
 }
